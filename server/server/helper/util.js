@@ -1,12 +1,11 @@
 import config from "config";
 import Joi from "joi";
 import jwt from "jsonwebtoken";
-import Sender from "aws-sms-send"
-import { notificationService } from "../../../Server/server/api/v1/services/notification";
+import Sender from "aws-sms-send";
+import { notificationService } from "../api/v1/services/notification";
 const { createNotification, findNotification, notificationList, updateNotification } = notificationService;
-import { userServices } from "../../../Server/server/api/v1/services/user";
+import { userServices } from "../api/v1/services/user";
 const { UpdateProfile, checkUserExists, emailMobileExist, createUser, countTotalUser, findUser, updateUser, countUser, ListUser } = userServices;
-import userType from "../enums/userType"
 // client.verify.v2.services(verifySid)
 var aws_topic = "arn:aws:sns:us-east-1:729366371820:coinbaazar";
 var config2 = {
