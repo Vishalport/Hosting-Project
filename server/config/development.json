@@ -1,6 +1,6 @@
 {
-  "port": 8521,
-  "hostAddress": "http://localhost:8521/",
+  "port": 8080,
+  "hostAddress": "http://localhost:8080/",
   "databaseHost": "127.0.0.1",
   "databasePort": "27017",
   "databaseName": "realEstate-org",
