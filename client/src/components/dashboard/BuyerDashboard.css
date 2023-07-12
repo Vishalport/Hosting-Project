@@ -1,0 +1,70 @@
+.buyer-dashboard {
+   display: flex;
+   flex-direction: column;
+  }
+  
+  .buyer-dashboard-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .buyer-properties {
+    margin-bottom: 20px;
+  }
+  
+  .property-card {
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buyer-summary {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .summary-item {
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 20rem;
+    flex: 1;
+    margin-right: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summary-item:last-child {
+    margin-right: 0;
+  }
+  
+  .summary-value {
+    font-size: 24px;    
+    font-weight: bold;
+    color: #4161DF;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .buyer-dashboard {
+      padding: 10px;
+    }
+  
+    .buyer-dashboard-title {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .buyer-dashboard {
+      padding: 5px;
+    }
+  
+    .buyer-dashboard-title {
+      font-size: 18px;
+    }
+  }
+  

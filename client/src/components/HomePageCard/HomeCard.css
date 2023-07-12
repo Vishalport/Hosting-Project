@@ -1,0 +1,17 @@
+.grid-divs{
+    margin-top: 10vh;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div-card-size{
+    width: 25vw;
+    height: 30vh;
+    padding: 35px;
+    margin-bottom: 15vh;
+    margin-top: 10vh;
+}

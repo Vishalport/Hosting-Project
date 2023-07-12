@@ -1,0 +1,5 @@
+.anchor{
+    width: fit-content;
+}
+
+@import "~react-image-gallery/styles/css/image-gallery.css"

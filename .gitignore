@@ -1,0 +1,52 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+# dependencies
+client/node_modules
+server/node_modules
+server/uploads
+/.pnp
+.pnp.js
+=======
+=======
+>>>>>>> c350e9d6caf35c18e5c18c87ca8a61031738a5f2
+# Node artifact files
+Server/uploads
+Server/node_modules
+client/node_modules
+
+dist/
+<<<<<<< HEAD
+>>>>>>> 3d6b0712a454448ba3c95b95bc71fe06e5156ebf
+=======
+=======
+# dependencies
+client/node_modules
+server/node_modules
+server/uploads
+/.pnp
+.pnp.js
+>>>>>>> d5f615d3b1e2da9f67b9b48832cbac363a88f184
+>>>>>>> c350e9d6caf35c18e5c18c87ca8a61031738a5f2
+
+# testing
+/coverage
+
+# production
+/build
+
+client/node_modules
+server/node_modules
+server/uploads
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

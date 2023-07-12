@@ -1,0 +1,48 @@
+.dashboard-container {
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .admin-dashboard {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .admin-dashboard h2 {
+    color: #333;
+  }
+  
+  .seller-dashboard {
+    background-color: #fff7e8;
+    border: 1px solid #ffa940;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .seller-dashboard h2 {
+    color: #ff7c00;
+  }
+  
+ 
+  .buyer-dashboard {
+    background-color: #e8f4ff;
+    border: 1px solid #00a7e1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buyer-dashboard h2 {
+    color: #0079b8;
+  }
+  
+  /* Add any additional styling you want for each specific dashboard */  

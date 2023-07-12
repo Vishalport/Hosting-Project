@@ -1,0 +1,163 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 70px;
+  }
+  
+  
+  .login-form {
+    width: 90%;
+    max-width: 400px;
+    padding: 40px;
+    margin-top: -40px;
+    margin-bottom: 80px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: none;
+    background-color: #1f3e72;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .login-btn:hover {
+    background-color: #022af0;
+    color: #fff;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .role-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .role-select-container {
+    position: relative;
+  }
+  
+  .role-select {
+    appearance: none;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23333'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px;
+    padding-right: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .role-select option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .role-select-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .signup-link-text {
+    color: #1f3e72;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .signup-link-text:hover {
+    color: #022af0;
+  }
+  
+  .forgot-password{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    color: #575555;
+    font-size: 13px;
+  }
+  .forgot-password:hover{
+    color: #333;
+  }
+  /* .forgot-password-btn {
+    background: none;
+    border: none;
+    color: #1f3e72;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .forgot-password-btn:focus {
+    outline: none;
+  }
+  
+  .forgot-password-btn:hover {
+    color: #022af0;
+  } */
+
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .login-form {
+      width: 90%;
+      max-width: 300px;
+      margin-top: 5rem;
+    }
+  
+    .role-select {
+      padding-right: 25px;
+      background-position: right 6px center;
+      background-size: 14px;
+      font-size: 14px;
+    }
+  
+    .role-select-icon {
+      right: 8px;
+    }
+  }
+
+  .heading{
+    font-size: 1.4rem;
+  }
+  

@@ -1,0 +1,23 @@
+.my-body{
+    margin-top: 0px !important;
+}
+.t-color{
+    background-color: #1f3e72 ;
+    color: white;
+}
+.p-color{
+    color: #1f3e72 !important;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    /* text-decoration: underline; */
+}
+
+.fxnx-heading{
+    font-size: 1rem !important;
+    color: #1f3e72 !important;
+}
+
+.id-text{
+    color: #1f3e72;
+    font-size: 12px;
+}

@@ -1,0 +1,123 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 130px;
+    margin-bottom: 40px;
+  }
+  
+  .signup-form {
+    width: 90%;
+    max-width: 400px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .sign-btn {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: none;
+    background-color: #1f3e72;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .sign-btn:hover {
+    background-color: #022af0;
+    color: #fff;
+  }
+  
+  .sign-btn-primary {
+    background-color: #1f3e72;
+    color: #fff;
+  }
+  
+  .sign-btn-primary:hover {
+    background-color: #022af0;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .login-link-text {
+    color: #1f3e72;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .login-link-text:hover {
+    color: #022af0;
+  }
+
+
+  /* for otp page */
+  .otp-container{
+    text-align: center;
+    width: 30rem;
+    margin: 15vh 35%;
+  }
+  .time-otp{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: #847f7f;
+    font-size: 14px;
+  }
+  .resend{
+    cursor: pointer;
+  }
+  .resend:hover{
+    color: blue;
+  }
+  .heading{
+    font-size: 1.4rem;
+  }
+  .agent_signup-heading{
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .signup-form {
+      width: 90%;
+      max-width: 300px;
+      margin-top: 6rem;
+    }
+  }
+  

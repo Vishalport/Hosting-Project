@@ -1,0 +1,21 @@
+.ContainerConnectImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    border-radius: unset;
+}
+.Homess {
+    position: absolute;
+    top: 132px;
+    left: 460px;
+    color: cornsilk;
+    font-size: x-large;
+    font-family: math;
+    font-weight: 600;
+}
+
+.Imagessajd {
+    width: 100%;
+    height: 80vh;
+}

@@ -1,0 +1,308 @@
+.agent-dashboard {
+    display: flex;
+    height: 100vh;
+    margin-top: -700px;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .agent-dashboard-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 10px;
+    position: fixed;
+    margin-top: 50px !important;
+  }
+  
+  .not_dash {
+    cursor: pointer;
+  }
+  
+  .sidebar-agent {
+    background: #f2f2f2;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    z-index: 1;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 0px;
+    position: fixed;
+  }
+  
+  .display-content {
+    position: absolute;
+    top: 0%;
+    margin-top: 0;
+  }
+  
+  .sidebar-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-item.active {
+    margin-bottom: 50px;
+  }
+  
+  .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 2;
+    background: #f9f9f9;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  .sub-menu button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .sidebar-item:hover .sub-menu,
+  .sidebar-item.active .sub-menu {
+    display: block;
+  }
+  
+  .sidebar-item:hover {
+    font-weight: 600;
+    color: #1f3e72;
+  }
+  
+  .not_dash:hover {
+    font-weight: 600;
+    color: #1f3e72;
+  }
+  
+  .sidebar-item:focus {
+    font-weight: 600;
+    color: #1f3e72;
+  }
+  
+  .not_dash:focus {
+    font-weight: 600;
+    color: #1f3e72;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .visiting-properties {
+    margin-bottom: 20px;
+  }
+  
+  .visiting-properties h3 {
+    margin-bottom: 10px;
+  }
+  
+  .side-form {
+    margin-left: 250px;
+    margin-top: -0px;
+  }
+  
+  .property-card {
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .user-management {
+    margin-bottom: 20px;
+  }
+  
+  .user-management h3 {
+    margin-bottom: 10px;
+  }
+  
+  .user {
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .toggle-button {
+    width: 100px;
+    height: 60px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-button:hover {
+    background-color: #ccc;
+  }
+  
+  .toggle-icon {
+    width: 40px;
+    height: 40px;
+    fill: #1f3e72;
+  }
+  
+  .toggle-btn {
+    width: 30px;
+  }
+  
+  .toggle-button span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 5px;
+    border-radius: 3px;
+  }
+  
+  .admin-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .summary-item {
+    flex: 0 0 200px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+  }
+  
+  .summary-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    flex: 1;
+    margin-left: 500px;
+    padding: 20px;
+    margin-top: -55px;
+  }
+  
+  .sidebar-agent.active .toggle-button span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .sidebar-agent.active .toggle-button span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .sidebar-agent.active .toggle-button span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+
+  
+  .dash-content {
+    width: 76.5vw;
+    min-height: 100vh;
+    height: fit-content;
+    background-color: white !important;
+    left: 22vw;
+    box-shadow: 0px 0px 4px 1px rgb(224, 222, 222);
+    margin-top: -65px;
+
+  }
+  
+  .pro-dash {
+    background-color: #f9f9f9;
+    margin-top: -250px;
+    border-width: 0px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .agent-dashboard {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .admin-summary {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      z-index: 999;
+      overflow-x: hidden;
+    }
+  
+    .sidebar-agent {
+      display: flex;
+      flex-direction: column;
+      width: 95%;
+      /* margin-top: 200px; */
+    }
+  
+    .sidebar-item {
+      justify-content: center;
+      margin-bottom: 10px;
+      position: relative;
+    }
+  
+    .sidebar-item.active {
+      margin-bottom: 50px;
+    }
+  
+    .sub-menu {
+      display: none;
+      position: absolute;
+      top: calc(100% + 5px);
+      left: 0;
+      z-index: 2;
+      background: #f9f9f9;
+      padding: 10px;
+      width: 100%;
+    }
+  
+    .main-content {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .dash-content {
+      margin-top: 150px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      left:12%;
+    }
+    .visiting-properties{
+        margin-top: -550px;
+    }
+    .notification-display{
+        margin-top: -500px;
+    }
+}  

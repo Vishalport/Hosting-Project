@@ -1,0 +1,50 @@
+h2#modal-modal-enquiry {
+    font-size: 1.25rem;
+    font-family: system-ui;
+    line-height: 4.75rem;
+    font-weight: 800;
+}
+
+h2#modal-modal-title {
+    font-size: 1.25rem;
+    font-family: math;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+p#modal-modal-description {
+    font-size: 1.25rem;
+    font-family: inherit;
+    line-height: 2.75rem;
+    font-weight: 800;
+}
+
+p#modal-modal-login {
+    font-size: 1.25rem;
+    font-family: math;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+.ImageSSS2 {
+    margin-bottom: 22rem;
+    text-align: center;
+}
+
+.ImageSSS.MuiBox-root.css-0 {
+    position: absolute;
+    width: 4rem;
+    /* height: 10rem;  */
+    left: 5px;
+    top: 7px;
+    bottom: 7px;
+    /* right: 63px; */
+}
+
+.Center.MuiBox-root.css-0 {
+    text-align: center;
+    margin: 0px;
+}
+
+.text-2xl.text-center {
+    text-decoration-line: underline;
+}

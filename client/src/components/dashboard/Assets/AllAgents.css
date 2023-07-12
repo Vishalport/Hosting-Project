@@ -1,0 +1,72 @@
+.user-heading{
+    font-weight: 500;
+    padding: 12px 20px;
+    font-size: 1.8rem;
+    color: #1f3e72;
+}
+.length-btn{
+    font-size: 1.1rem;
+    color: #1f3e72;
+    width: 10rem;
+    background-color: rgb(241, 243, 244);
+    height: 3rem;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.user-div{
+    display: flex;
+    flex-direction: column;
+}
+
+/* user card */
+.img-user{
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.user-card{
+    background-color: rgb(253, 253, 253);
+    margin: 1.1rem;
+    width: 96% !important;
+}
+.user-name-font{
+    font-weight: 600;
+    color: #1f3e72;
+}
+.user-username-font{
+    font-weight: 500;
+    color: #1f3e72;
+}
+
+.user-btn{
+    padding: 5px 10px;
+    background-color: white;
+    color: #1f3e72;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 2px solid #1f3e72;
+}
+
+.user-btn:hover{
+    color: white;
+    background-color: #1f3e72;
+}
+.user-joined{
+    font-size: 9px;
+}
+
+.text-agent{
+    font-size: 13px;
+}
+
+
+.font-agent{
+    font-size: 14px;
+}
+
+
+
+
+
