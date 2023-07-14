@@ -34,7 +34,6 @@ import Wishlist from "./pages/wishlist/Wishlist";
 
 
 export default function App() {
-
   return (
     <BrowserRouter>
       <Toaster />

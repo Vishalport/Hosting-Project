@@ -35,6 +35,7 @@ const AdminLogin = () => {
       });
 
       console.log("----->>>>>>admin data",data)
+      console.log("----->>>>>>admin data",data)
 
       if (data?.error) {
         toast.error(data.responseMessage);
